@@ -7,7 +7,9 @@ import org.testng.annotations.*;
 
 public class FirstTestNGFile {
     public String baseUrl = "http://newtours.demoaut.com/";
-    public WebDriver driver = new FirefoxDriver();
+   public WebDriver driver = new FirefoxDriver();
+   
+    
     
     @Test
     public void verifyHomepageTitle() {
